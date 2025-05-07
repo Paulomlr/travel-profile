@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 32px;
+    background-color: var(--surface-color);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    width: 50%;
+    margin-left: 58px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    color: var(--text-color-secondary);
+}
+
+.profile img {
+    width: 196px;
+    height: 196px;
+    border-radius: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.info .location,
+.info .countries,
+.info .photos {
+    display: flex;
+    gap: 12px;
+    padding: 0px 128px 0px 0px;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile div h1 {
+    color: var(--text-color-primary);
+    font-size: 32px;
+}
+
+.profile div p {
+    color: var(--text-color-secondary);
+    font-size: 16px;
+}

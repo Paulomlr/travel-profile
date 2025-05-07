@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 32px;
+    background-color: var(--surface-color);
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    color: var(--text-color-secondary);
+}
+
+.profile-photo {
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    object-fit: cover;
+}

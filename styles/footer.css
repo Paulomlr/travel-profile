@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 32px;
+    color: var(--text-color-secondary);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+footer div {
+    display: flex;
+    gap: 16px;
+}
