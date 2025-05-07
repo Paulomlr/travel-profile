@@ -19,3 +19,27 @@ header {
     border-radius: 100%;
     object-fit: cover;
 }
+
+header .nav-links {
+    display: flex;
+    gap: 28px;
+    cursor: pointer;
+}
+
+header .nav-items > p:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header .nav-links:hover img,
+header .nav-links:hover p {
+    color: var(--brand-color);
+    filter: brightness(0) saturate(100%) invert(32%) sepia(79%) saturate(4265%) hue-rotate(350deg) brightness(92%) contrast(95%);
+    text-decoration: underline;
+}
+
+header .profile-photo:hover {
+    border: solid var(--brand-color) 1.6px;
+    cursor: pointer;
+}

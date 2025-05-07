@@ -11,3 +11,9 @@ footer div {
     display: flex;
     gap: 16px;
 }
+
+footer .links p:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
